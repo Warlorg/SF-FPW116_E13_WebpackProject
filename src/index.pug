@@ -1,0 +1,13 @@
+block variables
+    - var name = "Hunter";
+
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        link(rel='stylesheet' type='text/css' href='/dist/main.css')
+        title Webpack configuration
+    body
+        h1 Hello, pug
+        p #{name}!
+        script(src='/dist/main.js')
